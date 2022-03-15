@@ -25,9 +25,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: |
-          npm i
-          set CI=false
+        run: npm i
+       
+      - name: Run set
+        run: set CI=false
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
