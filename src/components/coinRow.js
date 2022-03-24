@@ -17,10 +17,9 @@ export const CoinRow = ({ coin }) => {
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
-      <div className="coin-row-header">
-        <img src={coin.image.small} />
+      <div className="coin-row-header">       
         <div>name: {coin.name}</div>
-        <div>symbol: {coin.symbol}</div>
+        <div>symbol: {coin.description}</div>
       </div>
 
       {open && <div style={{ fontSize: 16 }}>
