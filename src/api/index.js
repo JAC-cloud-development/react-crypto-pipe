@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const getCoinList = async () => {
   try {
-    const { data: coinList } = await axios.get('/coins')
+    const { data: coinList } = await axios.get('/items')
     console.log({coinList})
     return coinList
 
