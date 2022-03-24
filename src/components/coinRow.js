@@ -20,11 +20,7 @@ export const CoinRow = ({ coin }) => {
       <div className="coin-row-header">       
         <div>name: {coin.name}</div>
         <div>symbol: {coin.description}</div>
-      </div>
-
-      {open && <div style={{ fontSize: 16 }}>
-        {coin.market_data.circulating_supply} Pezzi
-      </div>}
+      </div>    
     </div>
   )
 }
