@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-axios.defaults.baseURL = 'https://api.coingecko.com/api/v3';
+axios.defaults.baseURL = 'https://backendpipe-jac-test-1.herokuapp.com/items';
 axios.defaults.headers['Content-Type'] = 'application/json';
 
 // axios.interceptors.request.use(async conf => {
